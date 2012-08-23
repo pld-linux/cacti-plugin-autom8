@@ -4,7 +4,7 @@
 Summary:	Automate Creation of Graphs and Tree Entries
 Name:		cacti-plugin-%{plugin}
 Version:	0.35
-Release:	5
+Release:	6
 License:	GPL v2
 Group:		Applications/WWW
 Source0:	http://docs.cacti.net/_media/plugin:%{plugin}-v%{version}.tgz
@@ -14,9 +14,9 @@ BuildRequires:	rpm-php-pearprov >= 4.4.2-11
 BuildRequires:	rpmbuild(macros) >= 1.554
 Requires:	cacti
 Requires:	cacti(pia) >= 2.4
+Requires:	php(core) >= %{php_min_version}
 Requires:	php(mysql)
 Requires:	php(pcre)
-Requires:	php-common >= 4:%{php_min_version}
 BuildArch:	noarch
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
