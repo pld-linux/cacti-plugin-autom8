@@ -1,6 +1,5 @@
 %define		plugin	autom8
 %define		php_min_version 5.2.0
-%include	/usr/lib/rpm/macros.php
 Summary:	Automate Creation of Graphs and Tree Entries
 Name:		cacti-plugin-%{plugin}
 Version:	0.35
