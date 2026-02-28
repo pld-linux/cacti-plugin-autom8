@@ -3,7 +3,7 @@
 Summary:	Automate Creation of Graphs and Tree Entries
 Name:		cacti-plugin-%{plugin}
 Version:	0.35
-Release:	6
+Release:	7
 License:	GPL v2
 Group:		Applications/WWW
 Source0:	http://docs.cacti.net/_media/plugin:%{plugin}-v%{version}.tgz
